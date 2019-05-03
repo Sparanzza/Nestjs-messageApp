@@ -12,7 +12,7 @@ export class MessagesService {
         private readonly messageRepository: Repository<Message>,
       ) {}
 
-      async getAll() {
+      async getAll(): Promise<Message[]> {
           return await this.messageRepository.find();
       }
 
