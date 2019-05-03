@@ -2,8 +2,8 @@
     "type": "mysql",
     "host": "localhost",
     "port": 3306,
-    "username": "root",
-    "password": "rootroot",
+    "username": "nest",
+    "password": "app",
     "database": "sendmeapp_db",
     "entities": ["src/**/*.entity{.ts,.js}"],
     "synchronize": true
